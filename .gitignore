@@ -1,0 +1,7 @@
+my_env/
+venv/
+.DS_Store
+/node_modules
+**/node_modules
+**.env
+**package-lock.json

@@ -1,0 +1,112 @@
+/* .navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px !important;
+  border-bottom: 1px solid #ccc !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex !important;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar li {
+  margin-right: 10px !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navbar li a {
+  display: block !important;
+  padding: 8px 12px !important;
+  text-decoration: none !important;
+  color: #333;
+}
+
+.navbar li a:hover {
+  background-color: #eee;
+}
+
+.logout-button {
+  padding: 8px 12px !important;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.logout-button:hover {
+  background-color: #555;
+  transition: background-color 0.2s ease;
+} */
+
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px !important;
+  border-bottom: 1px solid #ccc;
+  position: fixed !important;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 20px !important;
+}
+
+.navigation-links {
+  display: flex !important;
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  justify-content: flex-start !important;
+}
+
+.navigation-links li {
+  margin-right: 10px !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navigation-links li a {
+  display: block !important;
+  padding: 8px 12px !important;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation-links li a:hover {
+  background-color: #eee;
+}
+
+.logout-button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.logout-button:hover {
+  background-color: #555;
+  transition: background-color 0.2s ease;
+}
+

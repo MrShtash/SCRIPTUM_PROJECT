@@ -1,0 +1,136 @@
+:root{
+    --color: #ccc
+}
+
+.companycalcpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 650px;
+  margin-bottom: 50px;
+}
+
+.companycalcpage h1 {
+  margin-bottom: 20px;
+}
+
+.companycalcpage p {
+  margin-bottom: 10px;
+}
+
+.companycalcpage .header {
+  margin-bottom: 20px;
+}
+
+.companycalcpage .content {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+
+.companycalcpage .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companycalcpage .form-group {
+  margin-bottom: 10px;
+}
+
+.companycalcpage select,
+.companycalcpage input[type="date"] {
+  width: z;
+  padding: 8px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+}
+
+.companycalcpage button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.companycalcpage h2 {
+  margin: 20px 0;
+}
+
+.companycalcpage .results p {
+  margin-bottom: 5px;
+}
+
+.companycalcpage .results p:last-child {
+  margin-bottom: 20px;
+}
+
+.companycalcpage .results-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companycalcpage .charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companycalcpage .bar-chart {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+}
+
+.companycalcpage .gantt-chart {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.gantt-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gantt-controls label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left !important;
+}
+
+.companycalcpage .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companycalcpage .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.companycalcpage label {
+  margin-bottom: 5px;
+}
+
+.companycalcpage select,
+.companycalcpage input[type="date"] {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  margin-top: 5px;
+}

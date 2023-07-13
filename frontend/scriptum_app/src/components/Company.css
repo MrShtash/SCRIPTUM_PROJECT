@@ -1,0 +1,61 @@
+.company-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 650px;
+  margin-bottom: 50px;
+}
+
+.company-page h1 {
+  margin-bottom: 20px;
+}
+
+.company-page p {
+  margin-bottom: 10px;
+}
+
+.company-page form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.company-page label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.company-page input,
+.company-page select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.company-page button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto;
+}
+
+.company-page button:hover {
+  background-color: #555;
+}
+
+.reference-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.reference-box p {
+  margin: 10px;
+}

@@ -1,0 +1,86 @@
+/* Стили для элементов графика */
+.gantt-chart {
+  width: 100%; /* Ширина графика */
+}
+
+.gantt-task {
+  background-color: #2196F3; /* Цвет фона задачи */
+  color: #fff; /* Цвет текста задачи */
+  padding: 4px 8px; /* Внутренние отступы задачи */
+  border-radius: 4px; /* Радиус скругления углов задачи */
+}
+
+.gantt-task.sprint-team {
+  background-color: #4CAF50; /* Цвет фона для задач спринтов */
+}
+
+.gantt-task.work-team {
+  background-color: #FFC107; /* Цвет фона для задач работ */
+}
+
+/* Стили для лейблов задач */
+.gantt-task-label {
+  font-weight: bold; /* Жирный шрифт для лейбла задачи */
+}
+
+/* Стили для осей времени */
+.gantt-timeline {
+  margin-top: 16px; /* Отступ сверху для осей времени */
+}
+
+.gantt-timeline .tick {
+  position: relative;
+  width: 1px; /* Ширина метки оси времени */
+  background-color: #ccc; /* Цвет метки оси времени */
+  margin-left: 8px; /* Отступ между метками оси времени */
+  height: 100%; /* Высота метки оси времени */
+}
+
+.gantt-timeline .tick:last-child {
+  margin-right: 8px; /* Отступ справа для последней метки оси времени */
+}
+
+/* Стили для заголовков проектов и спринтов */
+.gantt-header {
+  font-weight: bold; /* Жирный шрифт для заголовков */
+  margin-bottom: 8px; /* Отступ снизу для заголовков */
+}
+
+.gantt-project-label {
+  color: #2196F3; /* Цвет текста для заголовков проектов */
+}
+
+.gantt-sprint-label {
+  color: #4CAF50; /* Цвет текста для заголовков спринтов */
+}
+
+/* Стили для легенды */
+.gantt-legend {
+  margin-top: 16px; /* Отступ сверху для легенды */
+}
+
+.gantt-legend-item {
+  display: inline-block;
+  margin-right: 16px; /* Отступ между элементами легенды */
+}
+
+.gantt-legend-item:before {
+  content: '';
+  display: inline-block;
+  width: 12px; /* Ширина маркера легенды */
+  height: 12px; /* Высота маркера легенды */
+  margin-right: 4px; /* Отступ между маркером и текстом легенды */
+  border-radius: 2px; /* Радиус скругления углов маркера */
+}
+
+.gantt-legend .project-team:before {
+  background-color: #2196F3; /* Цвет маркера для проектов */
+}
+
+.gantt-legend .sprint-team:before {
+  background-color: #4CAF50; /* Цвет маркера для спринтов */
+}
+
+.gantt-legend .work-team:before {
+  background-color: #FFC107; /* Цвет маркера для работ */
+}

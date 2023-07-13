@@ -1,0 +1,54 @@
+.regcontainer {
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.regcontainer h1 {
+  margin-top: 300px;
+}
+
+.regcontainer label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.regcontainer input[type = "text"],
+.regcontainer input[type = "email"],
+.regcontainer input[type = "password"],
+.regcontainer select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.regcontainer input[type = "text"]:focus,
+.regcontainer input[type = "email"]:focus,
+.regcontainer input[type = "password"]:focus,
+.regcontainer select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #999;
+}
+
+.regcontainer select {
+  width: 100%;
+}
+
+.regcontainer button {
+  margin-left: 50px;
+  width: 200px;
+}
